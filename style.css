@@ -1,28 +1,28 @@
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
-  color: white;
-  font-size: 17px;
   background-image: url('background_body.jpg');
   background-size: cover;
+  color: white;
   font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 17px;
 }
 
 header {
   background-color: black;
-  padding: 15px;
   opacity: 0.7;
+  padding: 15px;
 }
 
 header div {
-  margin-right: auto;
-  margin-left: auto;
   display: flex;
   justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
   width: 85%;
 }
 
@@ -37,8 +37,8 @@ header ul {
 }
 
 header ul li {
-  text-decoration: none;
   margin-left: 25px;
+  text-decoration: none;
 }
 
 header a:link, header a:visited, header a:visited {
@@ -47,14 +47,14 @@ header a:link, header a:visited, header a:visited {
 }
 
 section {
-  width: 70%;
-  padding: 50px 100px;
-  margin-top: 80px;
-  margin-right: auto;
-  margin-left: auto;
   background-color: black;
-  opacity: 0.8;
   border-radius: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  opacity: 0.8;
+  padding: 50px 100px;
+  width: 70%;
 }
 
 section div h1{
@@ -62,15 +62,15 @@ section div h1{
 }
  
 section div p {
-  font-size: 20px;
   line-height: 30px;
+  font-size: 20px;
 }
 
 .social-media {  
-  width: 40%;
-  margin: 30px auto 0 auto;
   display: flex;
   justify-content: space-between;
+  margin: 30px auto 0 auto;
+  width: 40%;
 }
 
 .social-media img {
